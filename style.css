@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+
+
+.nav{
+    height:70px ;
+    background-color: white;
+    font-family: 'Poppins';
+    border-top:4px solid rgb(0, 238, 255);
+    border-bottom:4px solid rgb(0, 238, 255);
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+.box{
+    height: 400px;
+    width: 400px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    border-radius: 5%;  
+}
+#btn{
+    height: 35px;
+    width: 73px;
+    border-radius: 15%;
+    border: 2px solid black;
+    font-family: 'Poppins';
+}
+h2{
+    font-family: 'Poppins';
+    color: white;
+}
